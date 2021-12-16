@@ -1,16 +1,16 @@
 import { InjectedConnector } from '@web3-react/injected-connector';
 import { useWeb3React } from '@web3-react/core';
 import Button from 'src/components/Button';
-import { formatAddress } from 'src/helpers/wallet';
+import { formatAddress } from 'src/utils/wallet';
+import udlogin from 'src/utils/udlogin';
+import { setRedirectUrl } from 'src/utils';
 import CloseCircleOutlined from '@ant-design/icons/CloseCircleOutlined';
 import { SUPPORTED_CHAINS } from 'src/constants';
 import Title from 'antd/lib/typography/Title';
 import { useEffect, useState } from 'react';
 import UAuth, { UserInfo } from '@uauth/js';
-import { setRedirectUrl } from 'src/helpers';
 import { useRecoilState } from 'recoil';
 import { DEFAULT_PROFILE, profileState } from 'src/state/profile';
-import ud from 'src/helpers/ud';
 import { ModalStyle } from './style';
 
 export const injected = new InjectedConnector({
