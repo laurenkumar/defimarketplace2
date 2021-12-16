@@ -118,9 +118,9 @@ const ConnectWalletButton = ({ block, style }: any) => {
       </ModalStyle>
       <Button
         type='primary'
-        style={style}
+        style={{ background: 'black', border: '1px solid rgb(49, 61, 92)' }}
         block={block}
-        shape='round'
+        shape='default'
         loading={loading}
         onClick={
           profile.walletAddress ? disconnect : () => setModalVisible(true)

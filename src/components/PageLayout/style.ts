@@ -12,6 +12,14 @@ const LayoutStyle = styled.div`
     padding: 16px;
   }
 
+  svg {
+    color: black;
+  }
+
+  .ant-input {
+    border-radius: 0 !important;
+  }
+
   .ant-page-header-heading-sub-title {
     font-weight: bold;
   }

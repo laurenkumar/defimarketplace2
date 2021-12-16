@@ -1,18 +1,11 @@
-import Button from 'antd';
+import Button from 'src/components/Button';
+import Image from 'src/components/Image';
 
-interface CartEmptyProps {}
-
-const CartEmpty: React.FC<CartEmptyProps> = () => {
-
+const CartEmpty: React.FC = () => {
   return (
     <div>
       <div>
-        <Image
-          layout="fill"
-          objectFit="contain"
-          src="/images/emptyCart.svg"
-          alt="empty cart"
-        />
+        <Image src='/emptyCart.svg' alt='empty cart' width='500px' />
       </div>
       <div>
         <h4>Your cart feels lonely.</h4>
@@ -21,7 +14,13 @@ const CartEmpty: React.FC<CartEmptyProps> = () => {
           books, electronicts, videos, etc. and make it happy.
         </p>
         <div>
-          <Button onClick={console.log("todo")} variant="primary">
+          <Button
+            style={{
+              marginTop: '20px',
+              backgroundColor: 'black',
+              border: '1px solid rgb(49, 61, 92)',
+            }}
+          >
             Continue Shopping
           </Button>
         </div>

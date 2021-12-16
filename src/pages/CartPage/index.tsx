@@ -1,10 +1,9 @@
 import Title from 'antd/lib/typography/Title';
 import PageLayout from 'src/components/PageLayout';
 import CartPageStyle from './style';
-import CartEmpty from "src/components/Cart/CartEmpty";
+import CartEmpty from 'src/components/Cart/CartEmpty';
 
 const CartPage: React.FC = () => {
-
   return (
     <CartPageStyle>
       <PageLayout showConnectWallet={false}>
@@ -15,4 +14,4 @@ const CartPage: React.FC = () => {
   );
 };
 
-export default BridgePage;
+export default CartPage;

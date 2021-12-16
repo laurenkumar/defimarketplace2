@@ -18,11 +18,20 @@ export const ModalStyle = styled(Modal)`
     margin: auto;
   }
 
+  .ant-typography {
+    color: #000 !important;
+  }
+
+  svg {
+    color: black;
+  }
+
   .ant-btn {
     margin-top: 18px;
     display: flex;
     align-items: center;
     font-size: 14px;
+    background: #000 !important;
 
     img {
       width: 24px;

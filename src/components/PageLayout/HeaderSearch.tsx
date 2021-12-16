@@ -6,7 +6,7 @@ const HeaderSearch: React.FC = () => {
   return (
     <div>
       <Search
-        placeholder='input search text'
+        placeholder='Search a product'
         onSearch={onSearch}
         style={{ width: 200 }}
       />

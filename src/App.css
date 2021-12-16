@@ -1,10 +1,19 @@
 body {
   font-family: monospace;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 
-  background-color: #fcffe9;
-  background-image: linear-gradient(45deg, #fcffe9 0%, #d6fcfb 100%);
+  background-color: rgb(8, 6, 11);
+  background-image: linear-gradient(139.73deg, rgb(49, 61, 92) 0%, rgb(61, 42, 84) 100%);
   background-attachment: fixed;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  color: #fff !important;
+}
+
+form input {
+  color: #000 !important;
 }
 
 p {
@@ -16,4 +25,7 @@ p {
 .ant-message-notice-content,
 .ant-tag {
   border-radius: 8px !important;
+}
+.ant-typography {
+  color: #fff !important;
 }

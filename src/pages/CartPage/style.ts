@@ -4,6 +4,7 @@ const CartPageStyle = styled.div`
   .header {
     text-align: center;
     margin-bottom: 24px;
+    color: #fff;
   }
 
   .box {
