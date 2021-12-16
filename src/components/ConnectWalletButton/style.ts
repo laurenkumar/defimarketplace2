@@ -12,7 +12,6 @@ export const ModalStyle = styled(Modal)`
   }
 
   .ant-modal-content {
-    border-radius: 16px;
     max-width: 360px;
     width: 100%;
     margin: auto;
