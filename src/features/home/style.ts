@@ -84,7 +84,7 @@ const HomePageContentStyle = styled.div`
         border-radius: 2px;
         font-weight: 100;
         cursor: pointer;
-        &:hover{
+        &:hover {
           background: #aaaaaa;
         }
       }
