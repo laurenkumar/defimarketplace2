@@ -7,9 +7,9 @@ export default () => {
 
     scope: 'openid email wallet',
 
-    redirectUri: `localhost:3000/callback`,
+    redirectUri: `https://defimarketplace2.vercel.app//callback`,
 
     // This is the url that the auth server will redirect back to after logging out.
-    postLogoutRedirectUri: `localhost/logout`,
+    postLogoutRedirectUri: `https://defimarketplace2.vercel.app//logout`,
   });
 };
