@@ -43,7 +43,6 @@ const ConnectWalletButton = ({ block, style }: any) => {
           ud: user.sub,
         });
       })
-      // User is not inside cache, redirect to the login page.
       .catch((error: any) => {
         console.error(error);
       });
