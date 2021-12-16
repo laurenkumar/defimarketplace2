@@ -1,6 +1,8 @@
+import HomePageContentStyle from './style';
+
 const HomePageContent: React.FC = () => {
   return (
-    <>
+    <HomePageContentStyle>
       <div className='card'>
         <div className='card-content'>
           <div className='top-bar'>
@@ -89,7 +91,7 @@ const HomePageContent: React.FC = () => {
           <div className='span'>LENS</div>
         </div>
       </div>
-    </>
+    </HomePageContentStyle>
   );
 };
 
