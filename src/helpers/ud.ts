@@ -3,7 +3,7 @@ import UAuth from '@uauth/js';
 export default () => {
   return new UAuth({
     clientID: '1qyHcme87hjRz8XDZXjmU8MDsXrEnADy7OcLqzBz0oo=',
-    clientSecret: 'Yk/+Io/Bvcfsxqg5ThP5PLkYQPWktGky1xV9pAYp6IY=',
+    clientSecret: 'g+q7k94JSs3vpQR2Z0IbwzeYmRvuZC+g5jSqtzJ8CIQ=',
 
     scope: 'openid email wallet',
 
