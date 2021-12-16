@@ -4,9 +4,7 @@ const HomePageContent: React.FC = () => {
       <div class='card'>
         <div class='card-content'>
           <div class='top-bar'>
-            <span>
-              $12.95
-            </span>
+            <span>$12.95</span>
             <span class='float-right lnr lnr-heart'></span>
           </div>
           <div class='img'>
@@ -14,31 +12,22 @@ const HomePageContent: React.FC = () => {
           </div>
         </div>
         <div class='card-description'>
-          <div class='title'>
-            BEATS HEADPHONE
-          </div>
+          <div class='title'>BEATS HEADPHONE</div>
           <div class='cart'>
             <span class='lnr lnr-cart'></span>
           </div>
         </div>
         <div class='card-footer'>
-          <div class='span'>
-            RED
+          <div class='span'>RED</div>
+          <div class='span'>BEATS
           </div>
-          <div class='span'>
-            BEATS
-          </div>
-          <div class='span'>
-            HEADPHONE
-          </div>
+          <div class='span'>HEADPHONE</div>
         </div>
       </div>
       <div class='card'>
         <div class='card-content'>
           <div class='top-bar'>
-            <span>
-              $1200.95
-            </span>
+            <span>$1200.95</span>
             <span class='float-right lnr lnr-heart'></span>
           </div>
           <div class='img'>
@@ -46,31 +35,21 @@ const HomePageContent: React.FC = () => {
           </div>
         </div>
         <div class='card-description'>
-          <div class='title'>
-            IPHONE X
-          </div>
+          <div class='title'>IPHONE X</div>
           <div class='cart'>
             <span class='lnr lnr-cart'></span>
           </div>
         </div>
         <div class='card-footer'>
-          <div class='span'>
-            IPHONE
-          </div>
-          <div class='span'>
-            PHONE
-          </div>
-          <div class='span'>
-            MOBILE
-          </div>
+          <div class='span'>IPHONE</div>
+          <div class='span'>PHONE</div>
+          <div class='span'>MOBILE</div>
         </div>
       </div>
       <div class='card'>
         <div class='card-content'>
           <div class='top-bar'>
-            <span>
-              $5.95
-            </span>
+            <span>$5.95</span>
             <span class='float-right lnr lnr-heart'></span>
           </div>
           <div class='img'>
@@ -78,31 +57,21 @@ const HomePageContent: React.FC = () => {
           </div>
         </div>
         <div class='card-description'>
-          <div class='title'>
-            Black Shoes
-          </div>
+          <div class='title'>Black Shoes</div>
           <div class='cart'>
             <span class='lnr lnr-cart'></span>
           </div>
         </div>
         <div class='card-footer'>
-          <div class='span'>
-            SHOES
-          </div>
-          <div class='span'>
-            FORMAL
-          </div>
-          <div class='span'>
-            LEATHER
-          </div>
+          <div class='span'>SHOES</div>
+          <div class='span'>FORMAL</div>
+          <div class='span'>LEATHER</div>
         </div>
       </div>
       <div class='card'>
         <div class='card-content'>
           <div class='top-bar'>
-            <span>
-              $44.55
-            </span>
+            <span>$44.55</span>
             <span class='float-right lnr lnr-heart'></span>
           </div>
           <div class='img'>
@@ -110,23 +79,15 @@ const HomePageContent: React.FC = () => {
           </div>
         </div>
         <div class='card-description'>
-          <div class='title'>
-            Camera Lens
-          </div>
+          <div class='title'>Camera Lens</div>
           <div class='cart'>
             <span class='lnr lnr-cart'></span>
           </div>
         </div>
         <div class='card-footer'>
-          <div class='span'>
-            CAMERA
-          </div>
-          <div class='span'>
-            GADGET
-          </div>
-          <div class='span'>
-            LENS
-          </div>
+          <div class='span'>CAMERA</div>
+          <div class='span'>GADGET</div>
+          <div class='span'>LENS</div>
         </div>
       </div>
     </>
