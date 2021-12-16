@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import Spin from 'antd/lib/spin';
-import { getRedirectUrl } from 'src/helpers';
+import { getRedirectUrl } from 'src/utils';
 
 const LogoutPage: React.FC = () => {
   const history = useHistory();
