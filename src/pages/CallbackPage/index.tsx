@@ -8,7 +8,7 @@ const CallbackPage: React.FC = () => {
   const history = useHistory();
 
   useEffect(() => {
-    const uauth = ud();
+    const uauth = udlogin();
 
     uauth
       .loginCallback()
