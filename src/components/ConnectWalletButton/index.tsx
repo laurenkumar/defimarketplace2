@@ -33,7 +33,7 @@ const ConnectWalletButton = ({ block, style }: any) => {
   const [profile, setProfile] = useRecoilState(profileState);
 
   useEffect(() => {
-    uauth = ud();
+    uauth = udlogin();
     uauth
       .user()
       .then((user: UserInfo) => {
