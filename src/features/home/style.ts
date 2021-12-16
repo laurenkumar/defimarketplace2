@@ -19,6 +19,7 @@ const HomePageContentStyle = styled.div`
     padding: 10px;
     background: white;
     display: grid;
+    color: #000 !important;
     grid-template-rows: 8fr 1fr 1fr;
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.057);
     transition: 0.2s ease-in;
