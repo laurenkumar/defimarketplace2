@@ -1,7 +1,6 @@
 import { Switch, Route } from 'react-router-dom';
 import HomePage from 'src/pages/HomePage';
-import BridgePage from 'src/pages/BridgePage';
-import StatusPage from 'src/pages/StatusPage';
+import CartPage from 'src/pages/CartPage';
 import CallbackPage from 'src/pages/CallbackPage';
 import LogoutPage from './pages/LogoutPage';
 
@@ -11,8 +10,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <Switch>
-      <Route path='/bridge' component={BridgePage} />
-      <Route path='/status' component={StatusPage} />
+      <Route path='/cart' component={CartPage} />
       <Route path='/callback' component={CallbackPage} />
       <Route path='/logout' component={LogoutPage} />
       <Route path='/' component={HomePage} />

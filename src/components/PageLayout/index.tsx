@@ -25,11 +25,8 @@ const PageLayout: React.FC<{ showConnectWallet?: boolean }> = ({
             <Button type='link' key='1' onClick={() => history.push('/')}>
               Home
             </Button>,
-            <Button type='link' key='2' onClick={() => history.push('/bridge')}>
-              Bridge
-            </Button>,
-            <Button type='link' key='3' onClick={() => history.push('/status')}>
-              Status
+            <Button type='link' key='2' onClick={() => history.push('/cart')}>
+              Cart
             </Button>,
             <HeaderSearch />,
             <ConnectWalletButton

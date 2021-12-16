@@ -34,6 +34,7 @@ const LayoutStyle = styled.div`
 
   .ant-page-header-heading-extra {
     margin-left: 48px;
+    display: flex;
     .ant-btn-link {
       margin: 0px 8px;
       font-size: 16px;

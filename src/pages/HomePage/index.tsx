@@ -1,5 +1,5 @@
 import Title from 'antd/lib/typography/Title';
-import HomePageContent from 'features/home/HomePage';
+import HomePageContent from 'src/features/home/HomePage';
 import PageLayout from 'src/components/PageLayout';
 import HomePageStyle from './style';
 
@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     <HomePageStyle>
       <PageLayout>
         <Title>DefiMarket</Title>
-        <HomePage />
+        <HomePageContent />
       </PageLayout>
     </HomePageStyle>
   );

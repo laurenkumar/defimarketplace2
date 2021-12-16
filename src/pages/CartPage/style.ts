@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const BridgePageStyle = styled.div`
+const CartPageStyle = styled.div`
   .header {
     text-align: center;
     margin-bottom: 24px;
@@ -49,4 +49,4 @@ const BridgePageStyle = styled.div`
     margin-top: 16px;
   }
 `;
-export default BridgePageStyle;
+export default CartPageStyle;
