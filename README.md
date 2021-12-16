@@ -4,7 +4,7 @@
 - DefiMarket
   
 ### DEMO
-- to edit
+- Available here https://defimarketplace2.vercel.app/
 
 ### Video Demo
 - to edit
