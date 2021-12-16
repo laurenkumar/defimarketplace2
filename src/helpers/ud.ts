@@ -2,8 +2,8 @@ import UAuth from '@uauth/js';
 
 export default () => {
   return new UAuth({
-    clientID: '1qyHcme87hjRz8XDZXjmU8MDsXrEnADy7OcLqzBz0oo=',
-    clientSecret: 'g+q7k94JSs3vpQR2Z0IbwzeYmRvuZC+g5jSqtzJ8CIQ=',
+    clientID: process.env.REACT_APP_NOT_CLIENT_ID,
+    clientSecret: process.env.REACT_APP_NOT_CLIENT_SECRET,
 
     scope: 'openid email wallet',
 
