@@ -7,7 +7,7 @@
 - Available here https://defimarketplace2.vercel.app/
 
 # Video Demo
-- https://vimeo.com/657611217/d7075b0f99
+- https://vimeo.com/657618691/c12d83553b
 
 # Contact
 - Discord ID: dododream21#7208
