@@ -1,15 +1,15 @@
 # Integrating “Login With Unstoppable” As A Dapp Login Option
 # DefiMarket
-### Project name
+# Project name
 - DefiMarket
   
-### DEMO
+# DEMO
 - Available here https://defimarketplace2.vercel.app/
 
-### Video Demo
-- to edit
+# Video Demo
+- https://vimeo.com/657611217/d7075b0f99
 
-### Person of contact
+# Contact
 - Discord ID: dododream21#7208
 - UnstoppableDomain registered account email address: lauren_d@outlook.fr
 
