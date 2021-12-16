@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
   return (
     <HomePageStyle>
       <PageLayout>
-        <Title>DefiMarket</Title>
+        <Title>Your Decentralized Marketplace</Title>
         <HomePageContent />
       </PageLayout>
     </HomePageStyle>
