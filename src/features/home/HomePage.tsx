@@ -10,7 +10,7 @@ const HomePageContent: React.FC = () => {
             <span className='float-right lnr lnr-heart'></span>
           </div>
           <div className='img'>
-            <img src='https://tctechcrunch2011.files.wordpress.com/2014/11/solo2-wireless-red-quarter.jpg?w=738' />
+            <img src='https://techcrunch.com/wp-content/uploads/2017/07/img_2605.jpg?w=1390&crop=1' />
           </div>
         </div>
         <div className='card-description'>
