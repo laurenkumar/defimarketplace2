@@ -20,7 +20,6 @@ const CallbackPage: React.FC = () => {
       })
       // Failed to exchange authorization code for token.
       .catch((error) => {
-        history.push('/');
         console.error('callback error:', error);
       });
   }, []);
