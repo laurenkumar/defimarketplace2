@@ -1,7 +1,7 @@
 import { InjectedConnector } from '@web3-react/injected-connector';
 import { useWeb3React } from '@web3-react/core';
 import Button from 'src/components/Button';
-import { formatAddress } from 'src/helpers/wallet';
+import { formatAddress } from 'src/utils/wallet';
 import { SUPPORTED_CHAINS } from 'src/constants';
 
 export const injected = new InjectedConnector({
