@@ -30,6 +30,9 @@ const HomePageContentStyle = styled.div`
         top: 0;
         left: 0;
         padding: 20px;
+        span {
+          color: #000 !important;
+        }
         .float-right {
           float: right;
         }
