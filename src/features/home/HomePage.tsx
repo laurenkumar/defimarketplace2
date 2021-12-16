@@ -19,8 +19,7 @@ const HomePageContent: React.FC = () => {
         </div>
         <div class='card-footer'>
           <div class='span'>RED</div>
-          <div class='span'>BEATS
-          </div>
+          <div class='span'>BEATS</div>
           <div class='span'>HEADPHONE</div>
         </div>
       </div>
